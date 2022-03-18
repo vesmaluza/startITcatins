@@ -1,3 +1,33 @@
 body {
-    background-color: antiquewhite;
+    /*background:url(fons.jpg);*/
+    background-color: azure;
+}
+.wrapper{
+    background: rgb(224, 246, 250);
+    width:500px;
+    height:500px;
+    border:2px solid black;
+    padding:10px;
+    margin:auto;
+    /*margin ir atstarpes līdz malām uz ārpusi,
+    līdz ārējam tuvākam elementam*/
+    /*padding ir atkāpe iekšpusē*/
+    /*zemāk paraugs vertik. un horizont. centrēšanai*/
+    position: absolute;
+    top:50%; margin-top:-250px;
+    left: 50%; margin-left:-250px;
+
+    /*bonus dekorācijas*/
+    font-family: Helvetica; /*fonti*/
+    border-radius: 10px; /*apaļi stūri*/
+    box-shadow: 3px 3px 15px#5E0000; /*ēna*/
+    opacity: 0.5; /*caurspīdīgums*/
+}
+
+.chataZinas{
+    background: whitesmoke;
+    height: 300px;
+    color:red;
+    padding:5px;
+    overflow:scroll;
 }
